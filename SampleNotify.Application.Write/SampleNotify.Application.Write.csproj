@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="8.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SampleNotify.Application\SampleNotify.Application.csproj" />
+      <ProjectReference Include="..\SampleNotify.Domain\SampleNotify.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
