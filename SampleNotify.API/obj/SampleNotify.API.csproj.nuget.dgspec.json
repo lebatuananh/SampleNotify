@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Sample\\SampleNotify.API\\SampleNotify.API.csproj": {}
+    "D:\\Project\\notify-api\\SampleNotify.API\\SampleNotify.API.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Sample\\SampleNotify.API\\SampleNotify.API.csproj": {
+    "D:\\Project\\notify-api\\SampleNotify.API\\SampleNotify.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.API\\SampleNotify.API.csproj",
+        "projectUniqueName": "D:\\Project\\notify-api\\SampleNotify.API\\SampleNotify.API.csproj",
         "projectName": "SampleNotify.API",
-        "projectPath": "D:\\Project\\Sample\\SampleNotify.API\\SampleNotify.API.csproj",
+        "projectPath": "D:\\Project\\notify-api\\SampleNotify.API\\SampleNotify.API.csproj",
         "packagesPath": "C:\\Users\\ducdu\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Sample\\SampleNotify.API\\obj\\",
+        "outputPath": "D:\\Project\\notify-api\\SampleNotify.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,17 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Project\\Sample\\SampleNotify.Application.Read\\SampleNotify.Application.Read.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Application.Read\\SampleNotify.Application.Read.csproj"
+              "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj": {
+                "projectPath": "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj"
               },
-              "D:\\Project\\Sample\\SampleNotify.Application.Write\\SampleNotify.Application.Write.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Application.Write\\SampleNotify.Application.Write.csproj"
-              },
-              "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj"
-              },
-              "D:\\Project\\Sample\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\Project\\Sample\\Shared\\Shared.csproj"
+              "D:\\Project\\notify-api\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Project\\notify-api\\Shared\\Shared.csproj"
               }
             }
           }
@@ -113,169 +107,14 @@
         }
       }
     },
-    "D:\\Project\\Sample\\SampleNotify.Application.Read\\SampleNotify.Application.Read.csproj": {
+    "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.Application.Read\\SampleNotify.Application.Read.csproj",
-        "projectName": "SampleNotify.Application.Read",
-        "projectPath": "D:\\Project\\Sample\\SampleNotify.Application.Read\\SampleNotify.Application.Read.csproj",
-        "packagesPath": "C:\\Users\\ducdu\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Sample\\SampleNotify.Application.Read\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ducdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.35, )"
-            },
-            "Dapper.SqlBuilder": {
-              "target": "Package",
-              "version": "[2.0.35, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            },
-            "SqlKata": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "SqlKata.Execution": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Project\\Sample\\SampleNotify.Application.Write\\SampleNotify.Application.Write.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.Application.Write\\SampleNotify.Application.Write.csproj",
-        "projectName": "SampleNotify.Application.Write",
-        "projectPath": "D:\\Project\\Sample\\SampleNotify.Application.Write\\SampleNotify.Application.Write.csproj",
-        "packagesPath": "C:\\Users\\ducdu\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Sample\\SampleNotify.Application.Write\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ducdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj"
-              },
-              "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj",
+        "projectUniqueName": "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj",
         "projectName": "SampleNotify.Application",
-        "projectPath": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj",
+        "projectPath": "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj",
         "packagesPath": "C:\\Users\\ducdu\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Sample\\SampleNotify.Application\\obj\\",
+        "outputPath": "D:\\Project\\notify-api\\SampleNotify.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -294,8 +133,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj"
+              "D:\\Project\\notify-api\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
+                "projectPath": "D:\\Project\\notify-api\\SampleNotify.Domain\\SampleNotify.Domain.csproj"
               }
             }
           }
@@ -340,14 +179,14 @@
         }
       }
     },
-    "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
+    "D:\\Project\\notify-api\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\notify-api\\SampleNotify.Domain\\SampleNotify.Domain.csproj",
         "projectName": "SampleNotify.Domain",
-        "projectPath": "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj",
+        "projectPath": "D:\\Project\\notify-api\\SampleNotify.Domain\\SampleNotify.Domain.csproj",
         "packagesPath": "C:\\Users\\ducdu\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Sample\\SampleNotify.Domain\\obj\\",
+        "outputPath": "D:\\Project\\notify-api\\SampleNotify.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -366,8 +205,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Project\\Sample\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\Project\\Sample\\Shared\\Shared.csproj"
+              "D:\\Project\\notify-api\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Project\\notify-api\\Shared\\Shared.csproj"
               }
             }
           }
@@ -428,14 +267,14 @@
         }
       }
     },
-    "D:\\Project\\Sample\\Shared\\Shared.csproj": {
+    "D:\\Project\\notify-api\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Sample\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\Project\\notify-api\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\Project\\Sample\\Shared\\Shared.csproj",
+        "projectPath": "D:\\Project\\notify-api\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ducdu\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Sample\\Shared\\obj\\",
+        "outputPath": "D:\\Project\\notify-api\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -484,6 +323,10 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

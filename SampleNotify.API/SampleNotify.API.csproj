@@ -5,8 +5,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SampleNotify.Application.Read\SampleNotify.Application.Read.csproj" />
-      <ProjectReference Include="..\SampleNotify.Application.Write\SampleNotify.Application.Write.csproj" />
       <ProjectReference Include="..\SampleNotify.Application\SampleNotify.Application.csproj" />
       <ProjectReference Include="..\Shared\Shared.csproj" />
     </ItemGroup>

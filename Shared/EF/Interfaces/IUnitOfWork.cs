@@ -9,4 +9,8 @@ namespace Shared.EF.Interfaces
         Task CommitAsync(CancellationToken cancellationToken = default);
         void Rollback();
     }
+
+    public interface IUnitOfWork<TDbContext> : IUnitOfWork
+    {
+    }
 }

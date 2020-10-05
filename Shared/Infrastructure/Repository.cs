@@ -20,10 +20,11 @@ namespace Shared.Infrastructure
 
         protected DbSet<T> DbSet => _dbContext.Set<T>();
 
-        public async Task<QueryResult<T>> QueryAsync(Expression<Func<T, bool>> predicate, int skip, int take)
+        public async Task<QueryResult<T>> QueryAsync(Expression<Func<T, bool>> predicate, int skip, int take,
+            string sort)
         {
             var queryable = _dbContext.Set<T>().Where(predicate);
-            return await queryable.ToQueryResultAsync(skip, take);
+            return await queryable.ToQueryResultAsync(skip, take, sort);
         }
 
         public async Task<IList<T>> GetManyAsync(Expression<Func<T, bool>> predicate)
@@ -56,9 +57,9 @@ namespace Shared.Infrastructure
             return await _dbContext.Set<T>().AnyAsync(predicate);
         }
 
-        public virtual void Add(T entity)
+        public virtual T Add(T entity)
         {
-            _dbContext.Set<T>().Add(entity);
+            return _dbContext.Set<T>().Add(entity).Entity;
         }
 
         public virtual void AddRange(IEnumerable<T> entities)

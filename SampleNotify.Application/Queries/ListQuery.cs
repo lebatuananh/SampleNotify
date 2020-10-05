@@ -2,15 +2,17 @@
 {
     public abstract class ListQuery
     {
-        protected ListQuery(int skip, int take, string query = null)
+        protected ListQuery(int pageIndex, int pageSize, string query, string sorts)
         {
-            Skip = skip;
-            Take = take;
+            PageIndex = pageIndex;
+            PageSize = pageSize;
             Query = query;
+            Sorts = sorts;
         }
 
-        public int Skip { get; }
-        public int Take { get; }
+        public string Sorts { get; }
+        public int PageIndex { get; }
+        public int PageSize { get; }
         public string Query { get; }
     }
 }

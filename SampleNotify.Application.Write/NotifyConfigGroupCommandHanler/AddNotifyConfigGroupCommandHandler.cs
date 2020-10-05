@@ -1,10 +1,10 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using MediatR;
-using SampleNotify.Application.Commands.NotifyConfigGroups;
-using SampleNotify.Models.Entity;
-using SampleNotify.Models.Repositories.Interfaces;
+﻿using MediatR;
+using SampleNotify.Application.Commands.NotifyConfigGroups.Add;
+using SampleNotify.Models;
+using SampleNotify.Models.AggregateModels.NotifyConfigGroupAggregate;
 using Shared.EF.Interfaces;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace SampleNotify.Application.Write.NotifyConfigGroupCommandHanler
 {
@@ -19,6 +19,7 @@ namespace SampleNotify.Application.Write.NotifyConfigGroupCommandHanler
             _notifyConfigGroupRepository = notifyConfigGroupRepository;
             _unitOfWork = unitOfWork;
         }
+
 
 
         public async Task<Unit> Handle(AddNotifyConfigGroupCommand request, CancellationToken cancellationToken)

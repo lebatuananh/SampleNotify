@@ -6,7 +6,7 @@ using Shared.EF.Interfaces;
 
 namespace Shared.Infrastructure
 {
-    public class UnitOfWork<TContext> : IUnitOfWork where TContext : DbContext
+    public class UnitOfWork<TContext> : IUnitOfWork<TContext> where TContext : DbContext
     {
         private TContext _dbContext;
 

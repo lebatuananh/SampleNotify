@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using SampleNotify.Application.Commands.NotifyConfigGroups;
+using SampleNotify.Application.NotifyConfigGroups.Commands;
+using SampleNotify.Models;
 using SampleNotify.Models.Entity;
 
 namespace SampleNotify.Application.AutoMappers

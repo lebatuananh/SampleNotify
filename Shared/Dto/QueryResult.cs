@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using Shared.Common;
+using Shared.Extensions;
 
 namespace Shared.Dto
 {
@@ -30,12 +33,24 @@ namespace Shared.Dto
 
     public static class QueryResultExtension
     {
-        public static async Task<QueryResult<T>> ToQueryResultAsync<T>(this IQueryable<T> queryable, int skip, int take)
+        public static async Task<QueryResult<T>> ToQueryResultAsync<T>(this IQueryable<T> queryable, int pageIndex,
+            int pageSize, string sort) where T : class
         {
+            if (string.IsNullOrEmpty(sort))
+            {
+                return new QueryResult<T>
+                {
+                    Count = await queryable.CountAsync(),
+                    Items = await queryable.Skip(pageSize * (pageIndex - 1)).Take(pageSize).ToListAsync()
+                };
+            }
+
+            var sortConditions = JsonConvert.DeserializeObject<IEnumerable<Sort>>(sort);
+            var sorts = new Sorts(sortConditions);
             return new QueryResult<T>
             {
                 Count = await queryable.CountAsync(),
-                Items = await queryable.Skip(skip).Take(take).ToListAsync()
+                Items = await queryable.Skip(pageSize * (pageIndex - 1)).Take(pageSize).ToSort(sorts).ToListAsync()
             };
         }
 

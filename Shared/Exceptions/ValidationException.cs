@@ -1,33 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using FluentValidation.Results;
+using Shared.BaseModel;
+using Shared.Extensions;
 
 namespace Shared.Exceptions
 {
     public class ValidationException : Exception
     {
-        public ValidationException()
+        public ValidationException(BaseResponse baseResponses)
             : base("One or more validation failures have occurred.")
         {
-            Errors = new Dictionary<string, string[]>();
+            BaseResponses = baseResponses;
         }
 
-        public ValidationException(IEnumerable<ValidationFailure> failures)
-            : this()
+        public ValidationException(IEnumerable<ValidationFailure> failures, BaseResponse baseResponses)
+            : this(baseResponses)
         {
-            var failureGroups = failures
-                .GroupBy(e => e.PropertyName, e => e.ErrorMessage);
-
-            foreach (var failureGroup in failureGroups)
+            var detailErrors = new List<DetailError>();
+            foreach (var validationFailure in failures)
             {
-                var propertyName = failureGroup.Key;
-                var propertyFailures = failureGroup.ToArray();
-
-                Errors.Add(propertyName, propertyFailures);
+                detailErrors.Add(new DetailError(validationFailure.ErrorCode,
+                    validationFailure.CustomState.ToDictionary<string, string>()));
             }
+
+            BaseResponses = new BaseResponse(false, detailErrors);
         }
 
-        public IDictionary<string, string[]> Errors { get; }
+        public BaseResponse BaseResponses { get; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UlXHWJjIzMkGHMe+Jw9hxC3aXSE1ETzltEDG2jaX8QMgPvm+P7puQdNdxuZB8CIztnrQEDfiLCHsoGGY6AL0cA==",
+  "dgSpecHash": "5zk4M3MJldWGtRKgYLh3/dETWZfkbyJuJrpvJ/CCxKoclEb2XCRk0Q6wFEyauD3qb1WL2OSPgNamHJXJFIL9Jw==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Sample\\Shared\\Shared.csproj",
+  "projectFilePath": "D:\\Project\\notify-api\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ducdu\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\fluentvalidation\\9.1.3\\fluentvalidation.9.1.3.nupkg.sha512",
@@ -27,6 +27,7 @@
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\ducdu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",

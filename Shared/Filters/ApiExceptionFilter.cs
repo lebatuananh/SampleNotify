@@ -59,26 +59,15 @@ namespace Shared.Filters
 
         private void HandleValidationException(ExceptionContext context)
         {
-            var exception = context.Exception as ValidationException;
-
-            if (exception != null)
-            {
-                var details = new ValidationProblemDetails(exception.Errors)
-                {
-                    Type = "https://tools.ietf.org/html/rfc7231#section-6.5.1"
-                };
-
-                context.Result = new BadRequestObjectResult(details);
-            }
+            if (context.Exception is ValidationException exception)
+                context.Result = new BadRequestObjectResult(exception.BaseResponses);
 
             context.ExceptionHandled = true;
         }
 
         private void HandleNotFoundException(ExceptionContext context)
         {
-            var exception = context.Exception as NotFoundException;
-
-            if (exception != null)
+            if (context.Exception is NotFoundException exception)
             {
                 var details = new ProblemDetails
                 {

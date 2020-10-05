@@ -16,7 +16,7 @@ using SampleNotify.Models.Repositories.Interfaces;
 using Shared.Behaviours;
 using Shared.Constants;
 using Shared.Extensions;
-using Assembly = SampleNotify.Application.Write.Assembly;
+using Assembly = SampleNotify.Application.Assembly;
 
 namespace SampleNotify.API.Helpers
 {
@@ -43,6 +43,7 @@ namespace SampleNotify.API.Helpers
 
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
+            // services.AddTransient(typeof(IRepository<>), typeof(Repository<,>));
             services.AddTransient<INotifyConfigGroupRepository, NotifyConfigGroupRepository>();
             return services;
         }
@@ -60,8 +61,7 @@ namespace SampleNotify.API.Helpers
         public static IServiceCollection AddMediatREvent(this IServiceCollection services)
         {
             services.AddMediatR(typeof(Assembly).GetTypeInfo().Assembly);
-            services.AddMediatR(typeof(Application.Read.Assembly).GetTypeInfo().Assembly);
-            services.AddMediatR(typeof(Shared.Assembly).Assembly);
+            services.AddMediatR(typeof(Shared.Assembly).GetTypeInfo().Assembly);
             return services;
         }
 
@@ -72,7 +72,7 @@ namespace SampleNotify.API.Helpers
 
         public static IServiceCollection AddBehaviour(this IServiceCollection services)
         {
-            services.AddValidatorsFromAssembly(typeof(Application.Assembly).GetTypeInfo().Assembly);
+            services.AddValidatorsFromAssembly(typeof(Assembly).GetTypeInfo().Assembly);
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(PerformanceBehaviour<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));

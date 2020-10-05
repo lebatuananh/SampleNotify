@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj",
+    "projectUniqueName": "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj",
     "projectName": "SampleNotify.Application",
-    "projectPath": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj",
-    "outputPath": "D:\\Project\\Sample\\SampleNotify.Application\\obj\\",
+    "projectPath": "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj",
+    "outputPath": "D:\\Project\\notify-api\\SampleNotify.Application\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -19,8 +19,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
-            "projectPath": "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj"
+          "D:\\Project\\notify-api\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
+            "projectPath": "D:\\Project\\notify-api\\SampleNotify.Domain\\SampleNotify.Domain.csproj"
           }
         }
       }

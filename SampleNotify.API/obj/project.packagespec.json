@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.API\\SampleNotify.API.csproj",
+    "projectUniqueName": "D:\\Project\\notify-api\\SampleNotify.API\\SampleNotify.API.csproj",
     "projectName": "SampleNotify.API",
-    "projectPath": "D:\\Project\\Sample\\SampleNotify.API\\SampleNotify.API.csproj",
-    "outputPath": "D:\\Project\\Sample\\SampleNotify.API\\obj\\",
+    "projectPath": "D:\\Project\\notify-api\\SampleNotify.API\\SampleNotify.API.csproj",
+    "outputPath": "D:\\Project\\notify-api\\SampleNotify.API\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -19,17 +19,11 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "D:\\Project\\Sample\\SampleNotify.Application.Read\\SampleNotify.Application.Read.csproj": {
-            "projectPath": "D:\\Project\\Sample\\SampleNotify.Application.Read\\SampleNotify.Application.Read.csproj"
+          "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj": {
+            "projectPath": "D:\\Project\\notify-api\\SampleNotify.Application\\SampleNotify.Application.csproj"
           },
-          "D:\\Project\\Sample\\SampleNotify.Application.Write\\SampleNotify.Application.Write.csproj": {
-            "projectPath": "D:\\Project\\Sample\\SampleNotify.Application.Write\\SampleNotify.Application.Write.csproj"
-          },
-          "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj": {
-            "projectPath": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj"
-          },
-          "D:\\Project\\Sample\\Shared\\Shared.csproj": {
-            "projectPath": "D:\\Project\\Sample\\Shared\\Shared.csproj"
+          "D:\\Project\\notify-api\\Shared\\Shared.csproj": {
+            "projectPath": "D:\\Project\\notify-api\\Shared\\Shared.csproj"
           }
         }
       }

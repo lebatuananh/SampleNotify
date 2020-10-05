@@ -1,9 +1,9 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using MediatR;
-using SampleNotify.Application.Commands.NotifyConfigGroups;
-using SampleNotify.Models.Repositories.Interfaces;
+﻿using MediatR;
+using SampleNotify.Application.Commands.NotifyConfigGroups.Update;
+using SampleNotify.Models.AggregateModels.NotifyConfigGroupAggregate;
 using Shared.EF.Interfaces;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace SampleNotify.Application.Write.NotifyConfigGroupCommandHanler
 {
@@ -12,8 +12,7 @@ namespace SampleNotify.Application.Write.NotifyConfigGroupCommandHanler
         private readonly INotifyConfigGroupRepository _notifyConfigGroupRepository;
         private readonly IUnitOfWork _unitOfWork;
 
-        public UpdateNotifyConfigGroupCommandHandler(INotifyConfigGroupRepository notifyConfigGroupRepository,
-            IUnitOfWork unitOfWork)
+        public UpdateNotifyConfigGroupCommandHandler(INotifyConfigGroupRepository notifyConfigGroupRepository, IUnitOfWork unitOfWork)
         {
             _notifyConfigGroupRepository = notifyConfigGroupRepository;
             _unitOfWork = unitOfWork;

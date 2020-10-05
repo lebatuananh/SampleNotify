@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using FluentValidation;
 using MediatR;
+using Shared.BaseModel;
 using ValidationException = Shared.Exceptions.ValidationException;
 
 namespace Shared.Behaviours
@@ -29,7 +30,7 @@ namespace Shared.Behaviours
                 var failures = validationResults.SelectMany(r => r.Errors).Where(f => f != null).ToList();
 
                 if (failures.Count != 0)
-                    throw new ValidationException(failures);
+                    throw new ValidationException(failures, new BaseResponse());
             }
 
             return await next();

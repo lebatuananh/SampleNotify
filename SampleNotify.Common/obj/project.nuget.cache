@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2fUK699iGsiD85FNBISsRdue8x5LETURJQoQQY7SbFRyYaLVFYHnqtJBokgO8KJmDrjCTHwCksWg09wDCzo++Q==",
+  "dgSpecHash": "R0drSO5Fs57G49g2O0Pip0nC1CSaGj9U4G+2CRhJU/5Dx9u7wM+mtbHFVvcb1ZClGk3iZRsS9S98yEsetsqgIg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Sample\\SampleNotify.Common\\SampleNotify.Common.csproj",
+  "projectFilePath": "D:\\Project\\notify-api\\SampleNotify.Common\\SampleNotify.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

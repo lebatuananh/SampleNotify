@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
-using SampleNotify.Application.Models.NotifyConfigGroup;
+using SampleNotify.Application.NotifyConfigGroups.Queries.GetAllNotifyConfigGroup;
+using SampleNotify.Application.NotifyConfigGroups.Queries.GetListNotifyConfigGroup;
+using SampleNotify.Application.NotifyConfigGroups.Queries.GetNotifyConfigGroup;
+using SampleNotify.Models;
 using SampleNotify.Models.Entity;
 using Shared.Dto;
 
@@ -10,7 +13,9 @@ namespace SampleNotify.Application.AutoMappers
         public DomainToDtoMappingProfile()
         {
             CreateMap<NotifyConfigGroup, NotifyConfigGroupDto>();
-            CreateMap<QueryResult<NotifyConfigGroup>, QueryResult<NotifyConfigGroupDto>>();
+            CreateMap<NotifyConfigGroup, NotifyConfigGroupListDto>();
+            CreateMap<NotifyConfigGroup, NotifyConfigGroupDetailDto>();
+            CreateMap<QueryResult<NotifyConfigGroup>, QueryResult<NotifyConfigGroupListDto>>();
         }
     }
 }

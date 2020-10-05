@@ -1,12 +1,12 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
-using SampleNotify.Application.Models.NotifyConfigGroup;
+using SampleNotify.Application.Models;
 using SampleNotify.Application.Queries.NotifyConfigGroup;
-using SampleNotify.Models.Repositories.Interfaces;
+using SampleNotify.Models.AggregateModels.NotifyConfigGroupAggregate;
 using Shared.Dto;
 using Shared.Extensions;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace SampleNotify.Application.Read.NotifyConfigGroupQueryHandler
 {

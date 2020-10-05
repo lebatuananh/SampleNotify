@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using MediatR;
+using SampleNotify.Application.Models;
+using SampleNotify.Application.Queries.NotifyConfigGroup;
+using SampleNotify.Models.AggregateModels.NotifyConfigGroupAggregate;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using MediatR;
-using SampleNotify.Application.Models.NotifyConfigGroup;
-using SampleNotify.Application.Queries.NotifyConfigGroup;
-using SampleNotify.Models.Repositories.Interfaces;
 
 namespace SampleNotify.Application.Read.NotifyConfigGroupQueryHandler
 {

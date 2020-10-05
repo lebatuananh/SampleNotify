@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.Common\\SampleNotify.Common.csproj",
+    "projectUniqueName": "D:\\Project\\notify-api\\SampleNotify.Common\\SampleNotify.Common.csproj",
     "projectName": "SampleNotify.Common",
-    "projectPath": "D:\\Project\\Sample\\SampleNotify.Common\\SampleNotify.Common.csproj",
-    "outputPath": "D:\\Project\\Sample\\SampleNotify.Common\\obj\\",
+    "projectPath": "D:\\Project\\notify-api\\SampleNotify.Common\\SampleNotify.Common.csproj",
+    "outputPath": "D:\\Project\\notify-api\\SampleNotify.Common\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

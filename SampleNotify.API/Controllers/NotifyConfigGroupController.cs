@@ -3,23 +3,26 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SampleNotify.API.Request.NotifyConfigGroup;
-using SampleNotify.Application.Commands.NotifyConfigGroups;
-using SampleNotify.Application.Models.NotifyConfigGroup;
-using SampleNotify.Application.Queries.NotifyConfigGroup;
-using Shared.Dto;
+using SampleNotify.Application.NotifyConfigGroups.Commands;
+using SampleNotify.Application.NotifyConfigGroups.Queries.GetAllNotifyConfigGroup;
+using SampleNotify.Application.NotifyConfigGroups.Queries.GetListNotifyConfigGroup;
+using SampleNotify.Application.NotifyConfigGroups.Queries.GetNotifyConfigGroup;
+using SampleNotify.Models;
+using SampleNotify.Models.Entity;
+using Shared.BaseModel;
 
 namespace SampleNotify.API.Controllers
 {
     public class NotifyConfigGroupController : AdminV1Controller
     {
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(typeof(BaseEntityResponse<NotifyConfigGroup>), StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Post(AddNotifyConfigGroupRequest configGroupRequest)
         {
             var result = await Mediator.Send(new AddNotifyConfigGroupCommand(configGroupRequest.Title,
                 configGroupRequest.Ord, configGroupRequest.AppId));
-            return NoContent();
+            return Ok(result);
         }
 
         [HttpPut("{notifyConfigGroupId}")]
@@ -54,12 +57,14 @@ namespace SampleNotify.API.Controllers
         }
 
         [HttpGet]
-        [ProducesResponseType(typeof(QueryResult<NotifyConfigGroupDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(PagingResponse<IList<NotifyConfigGroupListDto>>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> GetNotifyConfigGroups(string query, int skip, int take = 10)
+        public async Task<IActionResult> GetNotifyConfigGroups(string query, int pageIndex = 1, int pageSize = 10,
+            string sorts = null)
         {
-            var result = await Mediator.Send(new GetListNotifyConfigGroupQuery(skip, take, query));
+            var result = await Mediator.Send(new GetListNotifyConfigGroupQuery(pageIndex,
+                pageSize, query, sorts));
             return Ok(result);
         }
 
