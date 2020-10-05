@@ -3,10 +3,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SampleNotify.API.Request.NotifyConfigGroup;
-using SampleNotify.Application.Commands.NotifyConfigGroups.Add;
-using SampleNotify.Application.Commands.NotifyConfigGroups.Delete;
-using SampleNotify.Application.Commands.NotifyConfigGroups.Update;
-using SampleNotify.Application.Models;
+using SampleNotify.Application.Commands.NotifyConfigGroups;
+using SampleNotify.Application.Models.NotifyConfigGroup;
 using SampleNotify.Application.Queries.NotifyConfigGroup;
 using Shared.Dto;
 

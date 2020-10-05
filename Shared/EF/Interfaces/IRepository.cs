@@ -6,10 +6,17 @@ using Shared.Dto;
 
 namespace Shared.EF.Interfaces
 {
-    public interface IRepository<T> where T : IAggregateRoot
+    public interface IRepository<T>
     {
         Task<QueryResult<T>> QueryAsync(Expression<Func<T, bool>> predicate, int skip, int take);
         Task<IList<T>> GetManyAsync(Expression<Func<T, bool>> predicate);
+
+        Task<IList<TType>> GetAsync<TType>(Expression<Func<T, bool>> predicate, Expression<Func<T, TType>> select)
+            where TType : class;
+
+        Task<IList<TType>> GetAsync<TType>(Expression<Func<T, TType>> select)
+            where TType : class;
+
         Task<IList<T>> GetAllAsync();
         Task<T> GetSingleAsync(Expression<Func<T, bool>> predicate);
         Task<T> GetByIdAsync(Guid entityId);

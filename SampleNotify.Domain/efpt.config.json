@@ -1,0 +1,49 @@
+﻿{
+   "ContextClassName": "DataNotifyDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "SampleNotify.Models",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CUSTOMER_NOTIFY_CONFIG]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EMAILTEMPLATE]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NOTIFY]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NOTIFY_CONFIG]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NOTIFY_CONFIG_GROUP]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SUBSCRIBE_NOTIFY]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}

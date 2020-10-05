@@ -1,11 +1,12 @@
-﻿using System.Data;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
-using Dapper;
 using MediatR;
-using SampleNotify.Application.Models;
+using Microsoft.EntityFrameworkCore;
+using SampleNotify.Application.Models.NotifyConfigGroup;
 using SampleNotify.Application.Queries.NotifyConfigGroup;
+using SampleNotify.Models.Repositories.Interfaces;
 using Shared.Dto;
+using Shared.Extensions;
 
 namespace SampleNotify.Application.Read.NotifyConfigGroupQueryHandler
 {
@@ -13,29 +14,22 @@ namespace SampleNotify.Application.Read.NotifyConfigGroupQueryHandler
         GetListNotifyConfigGroupQueryHandler : IRequestHandler<GetListNotifyConfigGroupQuery,
             QueryResult<NotifyConfigGroupDto>>
     {
-        private readonly IDbConnection _dbConnection;
+        private readonly INotifyConfigGroupRepository _notifyConfigGroupRepository;
 
-        public GetListNotifyConfigGroupQueryHandler(IDbConnection dbConnection)
+        public GetListNotifyConfigGroupQueryHandler(INotifyConfigGroupRepository notifyConfigGroupRepository)
         {
-            _dbConnection = dbConnection;
+            _notifyConfigGroupRepository = notifyConfigGroupRepository;
         }
 
         public async Task<QueryResult<NotifyConfigGroupDto>> Handle(GetListNotifyConfigGroupQuery request,
             CancellationToken cancellationToken)
         {
-            var builder = new SqlBuilder();
-            var tmplQueryItems =
-                builder.AddTemplate(
-                    @"select * from NOTIFY_CONFIG_GROUP dcg /**where**/ order by dcg.Id  offset @Skip rows fetch next @Take row only");
-            var tmplQueryCount = builder.AddTemplate(@"select count(dcg.id) from NOTIFY_CONFIG_GROUP dcg /**where**/");
-            if (!string.IsNullOrEmpty(request.Query)) builder.Where(@"dcg.Title like concat('%', @Query, '%')");
-
-            var queryStr = $@"{tmplQueryItems.RawSql};{tmplQueryCount.RawSql}";
-            using var queryResult =
-                await _dbConnection.QueryMultipleAsync(queryStr, new {request.Skip, request.Take, request.Query});
-            var items = queryResult.Read<NotifyConfigGroupDto>();
-            var count = queryResult.ReadFirst<int>();
-            return new QueryResult<NotifyConfigGroupDto>(count, items);
+            var query = await
+                _notifyConfigGroupRepository.QueryAsync(x =>
+                        string.IsNullOrEmpty(request.Query) || EF.Functions.Like(x.Title, $"%{request.Query}%"),
+                    request.Skip, request.Take);
+            var result = query.To<QueryResult<NotifyConfigGroupDto>>();
+            return result;
         }
     }
 }

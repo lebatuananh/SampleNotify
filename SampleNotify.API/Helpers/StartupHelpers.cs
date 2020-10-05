@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using System.Reflection;
+using AutoMapper;
 using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -8,12 +9,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using SampleNotify.Infrastructure;
-using SampleNotify.Infrastructure.Repositories;
-using SampleNotify.Models.AggregateModels.NotifyConfigGroupAggregate;
-using Shared.Behaviour;
+using SampleNotify.Application.AutoMappers;
+using SampleNotify.Models;
+using SampleNotify.Models.Repositories.Implementations;
+using SampleNotify.Models.Repositories.Interfaces;
 using Shared.Behaviours;
 using Shared.Constants;
+using Shared.Extensions;
+using Assembly = SampleNotify.Application.Write.Assembly;
 
 namespace SampleNotify.API.Helpers
 {
@@ -56,7 +59,7 @@ namespace SampleNotify.API.Helpers
 
         public static IServiceCollection AddMediatREvent(this IServiceCollection services)
         {
-            services.AddMediatR(typeof(Application.Write.Assembly).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(Assembly).GetTypeInfo().Assembly);
             services.AddMediatR(typeof(Application.Read.Assembly).GetTypeInfo().Assembly);
             services.AddMediatR(typeof(Shared.Assembly).Assembly);
             return services;
@@ -73,6 +76,17 @@ namespace SampleNotify.API.Helpers
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(PerformanceBehaviour<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));
+            return services;
+        }
+
+        public static IServiceCollection AddMapper(this IServiceCollection services)
+        {
+            var mapperConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new DomainToDtoMappingProfile());
+                cfg.AddProfile(new CommandToDomainMappingProfile());
+            });
+            services.AddSingleton(mapperConfig.CreateMapper().RegisterMap());
             return services;
         }
 

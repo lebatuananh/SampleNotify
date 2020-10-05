@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using SampleNotify.Application.Models;
+using SampleNotify.Application.Models.NotifyConfigGroup;
 using Shared.Dto;
 
 namespace SampleNotify.Application.Queries.NotifyConfigGroup

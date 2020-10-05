@@ -1,32 +1,30 @@
 ﻿using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using SampleNotify.Application.Models;
+using SampleNotify.Application.Models.NotifyConfigGroup;
 using SampleNotify.Application.Queries.NotifyConfigGroup;
-using SqlKata.Compilers;
-using SqlKata.Execution;
+using SampleNotify.Models.Repositories.Interfaces;
 
 namespace SampleNotify.Application.Read.NotifyConfigGroupQueryHandler
 {
     public class
         GetAllNotifyConfigGroupQueryHandler : IRequestHandler<GetAllNotifyConfigGroupQuery, List<NotifyConfigGroupDto>>
     {
-        private readonly IDbConnection _dbConnection;
+        private readonly INotifyConfigGroupRepository _notifyConfigGroupRepository;
 
-        public GetAllNotifyConfigGroupQueryHandler(IDbConnection dbConnection)
+        public GetAllNotifyConfigGroupQueryHandler(INotifyConfigGroupRepository notifyConfigGroupRepository)
         {
-            _dbConnection = dbConnection;
+            _notifyConfigGroupRepository = notifyConfigGroupRepository;
         }
 
         public async Task<List<NotifyConfigGroupDto>> Handle(GetAllNotifyConfigGroupQuery request,
             CancellationToken cancellationToken)
         {
-            var db = new QueryFactory(_dbConnection, new SqlServerCompiler());
-            var query = db.Query("NOTIFY_CONFIG_GROUP").OrderBy("Ord");
-            var result = await query.GetAsync<NotifyConfigGroupDto>();
+            var result =
+                await _notifyConfigGroupRepository.GetAsync(
+                    x => new NotifyConfigGroupDto(x.Id, x.Title, x.Ord, x.AppId));
             return result.ToList();
         }
     }

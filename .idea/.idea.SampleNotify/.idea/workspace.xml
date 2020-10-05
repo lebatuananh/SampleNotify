@@ -8,55 +8,243 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb39d84a-acc7-425e-bdcb-068bbf4f4171" name="Default Changelist" comment="" />
+    <list default="true" id="fb39d84a-acc7-425e-bdcb-068bbf4f4171" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SampleNotify/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SampleNotify/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SampleNotify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SampleNotify/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/Controllers/NotifyConfigGroupController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/Controllers/NotifyConfigGroupController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/Helpers/StartupHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/Helpers/StartupHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/SampleNotify.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/SampleNotify.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/bin/Debug/netcoreapp3.1/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/Debug/netcoreapp3.1/SampleNotify.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/SampleNotify.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/SampleNotify.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/Assembly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/Assembly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetAllNotifyConfigGroupQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetAllNotifyConfigGroupQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetListNotifyConfigGroupQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetListNotifyConfigGroupQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetNotifyConfigGroupQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetNotifyConfigGroupQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.Read.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/bin/Debug/netcoreapp3.1/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/Debug/netcoreapp3.1/SampleNotify.Application.Read.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/SampleNotify.Application.Read.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/SampleNotify.Application.Read.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/SampleNotify.Application.Read.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/SampleNotify.Application.Read.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Read/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/Assembly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/Assembly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/AddNotifyConfigGroupCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/AddNotifyConfigGroupCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/DeleteNotifyConfigGroupCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/DeleteNotifyConfigGroupCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/UpdateNotifyConfigGroupCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/UpdateNotifyConfigGroupCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.Write.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/bin/Debug/netcoreapp3.1/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/Debug/netcoreapp3.1/SampleNotify.Application.Write.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/SampleNotify.Application.Write.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/SampleNotify.Application.Write.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/SampleNotify.Application.Write.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/SampleNotify.Application.Write.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application.Write/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Assembly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Assembly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Add/AddNotifyConfigGroupCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Add/AddNotifyConfigGroupCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/AddNotifyConfigGroupCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/DeleteNotifyConfigGroupCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/DeleteNotifyConfigGroupCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/DeleteNotifyConfigGroupCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Update/UpdateNotifyConfigGroupCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Update/UpdateNotifyConfigGroupCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/UpdateNotifyConfigGroupCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Models/NotifyConfigGroup/NotifyConfigGroupDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Models/NotifyConfigGroup/NotifyConfigGroupDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetAllNotifyConfigGroupQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetAllNotifyConfigGroupQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetListNotifyConfigGroupQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetListNotifyConfigGroupQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetNotifyConfigGroupQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetNotifyConfigGroupQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Application.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/bin/Debug/netcoreapp3.1/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/Debug/netcoreapp3.1/SampleNotify.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/SampleNotify.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/SampleNotify.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/SampleNotify.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/SampleNotify.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Common/obj/Debug/netcoreapp3.1/SampleNotify.Common.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Common/obj/Debug/netcoreapp3.1/SampleNotify.Common.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/CustomerNotifyConfigAggregate/CustomerNotifyConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/CustomerNotifyConfigAggregate/ICustomerNotifyConfigRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/EmailTemplateAggregate/EmailTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/EmailTemplateAggregate/IEmailTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/NotifyAggregate/INotifyRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/NotifyAggregate/Notify.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/NotifyConfigAggregate/INotifyConfigRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/NotifyConfigAggregate/NotifyConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/NotifyConfigGroupAggregate/INotifyConfigGroupRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/NotifyConfigGroupAggregate/NotifyConfigGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/SampleNotify.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/SampleNotify.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/SampleNotify.Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/SampleNotify.Domain.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/bin/Debug/netcoreapp3.1/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/SampleNotify.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/SampleNotify.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/SampleNotify.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/SampleNotify.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/SampleNotify.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/SampleNotify.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/bin/Debug/netcoreapp3.1/SampleNotify.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/Debug/netcoreapp3.1/SampleNotify.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/SampleNotify.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/SampleNotify.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/SampleNotify.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/SampleNotify.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleNotify.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SampleNotify.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Assembly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Assembly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Behaviours/PerformanceBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Behaviours/PerformanceBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Behaviours/ValidationBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Behaviours/ValidationBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Dto/QueryResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Dto/QueryResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/EF/Implement/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/EF/Implement/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/EF/Interfaces/IAggregateRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/EF/Interfaces/IAggregateRoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/EF/Interfaces/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/EF/Interfaces/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/EF/Interfaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/EF/Interfaces/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/EF/Interfaces/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/EF/Interfaces/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Exceptions/NotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Exceptions/ValidationException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Exceptions/ValidationException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Filters/ApiExceptionFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Filters/ApiExceptionFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Infrastructure/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Infrastructure/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Infrastructure/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Infrastructure/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/bin/Debug/netcoreapp3.1/Shared.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/bin/Debug/netcoreapp3.1/Shared.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/bin/Debug/netcoreapp3.1/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/bin/Debug/netcoreapp3.1/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/bin/Debug/netcoreapp3.1/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/bin/Debug/netcoreapp3.1/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Debug/netcoreapp3.1/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/Shared.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/Shared.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C239470B-D9CC-4909-95DE-A500ABDE6799/24/LambdaExpression.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C17641F-22F2-4628-B1FD-A1CC8BD05999/2e/66ec38ff/IRepository`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/08BEEF07-8B27-4C9B-9B70-7BF7F188D920/9/EntityFrameworkServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/387085DE-06BE-4CBF-9AC0-A7A7BCFC54CA/8/ValidationException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38698F20-742F-4CF4-B560-1877273F96A8/aa/571fc75d/BaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AABF22C8-0443-4F75-A371-6B76C765A950/F/MapperConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/128EEF00-630C-4CBB-ABA5-CF9A935C3C6C/0f/380382bf/IRequestHandler`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SampleNotify.Application.Read/Assembly.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application.Write/Assembly.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/AddNotifyConfigGroupCommand.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/AddNotifyConfigGroupCommandValidator.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Add/AddNotifyConfigGroupCommand.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/AddNotifyConfigGroupCommand.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Infrastructure/EntityConfiguations/CustomerNotifyConfigConfiguration.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Infrastructure/EntityConfiguations/EmailTemplateConfiguration.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Infrastructure/EntityConfiguations/NotifyConfigConfiguration.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Infrastructure/EntityConfiguations/NotifyConfigGroupConfiguration.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Infrastructure/EntityConfiguations/NotifyConfiguration.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/AddNotifyConfigGroupCommandHandler.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Add/AddNotifyConfigGroupCommandValidator.cs" />
-        <option value="$PROJECT_DIR$/Shared/Assembly.cs" />
-        <option value="$PROJECT_DIR$/Shared/Exceptions/ValidationException.cs" />
         <option value="$PROJECT_DIR$/Shared/Behaviour/PerformanceBehaviour.cs" />
         <option value="$PROJECT_DIR$/Shared/Exceptions/NotFoundException.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Infrastructure/Repositories/NotifyConfigGroupRepository.cs" />
         <option value="$PROJECT_DIR$/Shared/Constants/ConfigurationKeys.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.API/Helpers/StartupHelpers.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.API/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/SampleNotify.API/Request/NotifyConfigGroupRequest.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.API/Controllers/AdminV1Controller.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.API/appsettings.json" />
-        <option value="$PROJECT_DIR$/SampleNotify.API/Program.cs" />
         <option value="$PROJECT_DIR$/Shared/Behaviour/ValidationBehavior.cs" />
         <option value="$PROJECT_DIR$/Shared/Filters/ApiExceptionFilter.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.API/Startup.cs" />
         <option value="$PROJECT_DIR$/Shared/Behaviour/LoggingBehaviour.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/UpdateNotifyConfigGroupCommand.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/UpdateNotifyConfigGroupCommandValidator.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Update/UpdateNotifyConfigGroupCommandValidator.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/DeleteNotifyConfigGroupCommandValidator.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/DeleteNotifyConfigGroupCommand.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Domain/AggregateModels/NotifyConfigGroupAggregate/NotifyConfigGroup.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/UpdateNotifyConfigGroupCommandHandler.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/DeleteNotifyConfigGroupCommandHandler.cs" />
@@ -64,16 +252,37 @@
         <option value="$PROJECT_DIR$/SampleNotify.API/Request/NotifyConfigGroup/AddNotifyConfigGroupRequest.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.API/Request/NotifyConfigGroup/UpdateNotifyConfigGroup.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.API/Request/NotifyConfigGroup/UpdateNotifyConfigGroupRequest.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Update/UpdateNotifyConfigGroupCommand.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application/Models/NotifyConfigGroupDto.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application/Queries/ListQuery.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetListNotifyConfigGroupQuery.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetAllNotifyConfigGroupQuery.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetNotifyConfigGroupQuery.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.API/Controllers/NotifyConfigGroupController.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Domain/Repositories/Implementations/NotifyConfigGroupRepository.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Domain/Entity/Notify.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Domain/DataNotifyDbContext.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application.Write/NotifyConfigGroupCommandHanler/AddNotifyConfigGroupCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.API/Program.cs" />
+        <option value="$PROJECT_DIR$/Shared/EF/Interfaces/IRepository.cs" />
+        <option value="$PROJECT_DIR$/Shared/Extensions/EnumExtensions.cs" />
+        <option value="$PROJECT_DIR$/Shared/Extensions/MapperExtension.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Domain/Entity/NotifyConfigGroup.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/AutoMappers/CommandToDomainMappingProfile.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.API/Helpers/StartupHelpers.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetNotifyConfigGroupQueryHandler.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetListNotifyConfigGroupQueryHandler.cs" />
         <option value="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetAllNotifyConfigGroupQueryHandler.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application/Queries/NotifyConfigGroup/GetNotifyConfigGroupQuery.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.Application.Read/NotifyConfigGroupQueryHandler/GetNotifyConfigGroupQueryHandler.cs" />
-        <option value="$PROJECT_DIR$/SampleNotify.API/Controllers/NotifyConfigGroupController.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Models/NotifyConfigGroup/NotifyConfigGroupDto.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/AutoMappers/DomainToDtoMappingProfile.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Add/AddNotifyConfigGroupCommandValidator.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Add/AddNotifyConfigGroupCommand.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/DeleteNotifyConfigGroupCommandValidator.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Delete/DeleteNotifyConfigGroupCommand.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Update/UpdateNotifyConfigGroupCommandValidator.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/Update/UpdateNotifyConfigGroupCommand.cs" />
+        <option value="$PROJECT_DIR$/SampleNotify.Application/Commands/NotifyConfigGroups/UpdateNotifyConfigGroupCommand.cs" />
+        <option value="$PROJECT_DIR$/Shared/Infrastructure/Repository.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +299,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SampleNotify.API">
@@ -193,106 +403,166 @@
       <option name="presentableId" value="Default" />
       <updated>1601523219915</updated>
       <workItem from="1601523234340" duration="19773000" />
+      <workItem from="1601550332843" duration="28000" />
+      <workItem from="1601601834829" duration="1923000" />
+      <workItem from="1601621504993" duration="2159000" />
+      <workItem from="1601687607407" duration="1203000" />
+      <workItem from="1601694921681" duration="81000" />
+      <workItem from="1601695137388" duration="374000" />
+      <workItem from="1601695539707" duration="6000" />
+      <workItem from="1601697624933" duration="6794000" />
+      <workItem from="1601712721420" duration="39000" />
+      <workItem from="1601712801809" duration="5943000" />
+      <workItem from="1601865959764" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1601549513123">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="664" y="361" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1601714714410">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="664" y="361" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/62.0.1858.1080@62.0.1858.1080" timestamp="1601714714410" />
+    <state width="819" height="646" key="DebuggerActiveHint" timestamp="1601714136401">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="819" height="646" key="DebuggerActiveHint/62.0.1858.1080@62.0.1858.1080" timestamp="1601714136401" />
+    <state width="1815" height="344" key="GridCell.Tab.0.bottom" timestamp="1601865986006">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513123" />
-    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1601549513123">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1601865986006" />
+    <state width="1815" height="344" key="GridCell.Tab.0.center" timestamp="1601865986006">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513123" />
-    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1601549513123">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1601865986006" />
+    <state width="1815" height="344" key="GridCell.Tab.0.left" timestamp="1601865986006">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513123" />
-    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1601549513123">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1601865986006" />
+    <state width="1815" height="344" key="GridCell.Tab.0.right" timestamp="1601865986006">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513123" />
-    <state width="1877" height="369" key="GridCell.Tab.1.bottom" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1601865986006" />
+    <state width="1815" height="344" key="GridCell.Tab.1.bottom" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.1.center" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.1.center" timestamp="1601722282290">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.1.left" timestamp="1601549513123">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282290" />
+    <state width="1815" height="344" key="GridCell.Tab.1.left" timestamp="1601722282290">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513123" />
-    <state width="1877" height="369" key="GridCell.Tab.1.right" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282290" />
+    <state width="1815" height="344" key="GridCell.Tab.1.right" timestamp="1601722282290">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.2.bottom" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282290" />
+    <state width="1815" height="344" key="GridCell.Tab.2.bottom" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.2.center" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.2.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.2.center" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.2.left" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.2.center/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.2.left" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.2.right" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.2.left/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.2.right" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.3.bottom" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.2.right/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.3.bottom" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.3.center" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.3.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.3.center" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.3.left" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.3.center/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.3.left" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.3.right" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.3.left/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.3.right" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.4.bottom" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.3.right/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.4.bottom" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.4.center" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.4.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.4.center" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.4.left" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.4.center/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.4.left" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
-    <state width="1877" height="369" key="GridCell.Tab.4.right" timestamp="1601549513124">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="344" key="GridCell.Tab.4.left/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
+    <state width="1815" height="344" key="GridCell.Tab.4.right" timestamp="1601722282291">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="369" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601549513124" />
+    <state width="1815" height="344" key="GridCell.Tab.4.right/62.0.1858.1080@62.0.1858.1080" timestamp="1601722282291" />
     <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size" timestamp="1601541190156">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1601541190156" />
-    <state x="670" y="203" key="RiderGenerateDialog" timestamp="1601547817326">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="710" y="209" key="RiderGenerateDialog" timestamp="1601701291267">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="670" y="203" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601547817326" />
+    <state x="710" y="209" key="RiderGenerateDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1601701291267" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1601602041572">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601602041572" />
+    <state x="154" y="92" width="1674" height="896" key="VCS.FileHistoryDialog" timestamp="1601632788387">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="154" y="92" width="1674" height="896" key="VCS.FileHistoryDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1601632788387" />
     <state x="608" y="258" width="703" height="534" key="find.popup" timestamp="1601545801384">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -301,9 +571,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601523969599" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1601546733949">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="665" y="233" width="672" height="698" key="search.everywhere.popup" timestamp="1601866278642">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601546733949" />
+    <state x="665" y="233" width="672" height="698" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1601866278642" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Shared/Extensions/MapperExtension.cs</url>
+          <line>20</line>
+          <properties documentPath="D:\Project\Sample\Shared\Extensions\MapperExtension.cs" initialLine="20">
+            <startOffsets>
+              <option value="457" />
+            </startOffsets>
+            <endOffsets>
+              <option value="458" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

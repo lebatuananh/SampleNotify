@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "b97rvkAJe03ypBQoKxlRUVOosgMrpFQ6MwE6b/7vGpuPFAXQHBkNyTiCCdcBvFLBVmfa9rMwRLpzrndmS+VZCw==",
+  "dgSpecHash": "UlXHWJjIzMkGHMe+Jw9hxC3aXSE1ETzltEDG2jaX8QMgPvm+P7puQdNdxuZB8CIztnrQEDfiLCHsoGGY6AL0cA==",
   "success": true,
   "projectFilePath": "D:\\Project\\Sample\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ducdu\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\fluentvalidation\\9.1.3\\fluentvalidation.9.1.3.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.1.3\\fluentvalidation.aspnetcore.9.1.3.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.3\\fluentvalidation.dependencyinjectionextensions.9.1.3.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.8\\microsoft.entityframeworkcore.3.1.8.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.8\\microsoft.entityframeworkcore.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.8\\microsoft.entityframeworkcore.analyzers.3.1.8.nupkg.sha512",
@@ -27,7 +29,8 @@
     "C:\\Users\\ducdu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\ducdu\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\ducdu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\ducdu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\ducdu\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

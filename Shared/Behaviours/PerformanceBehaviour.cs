@@ -8,8 +8,8 @@ namespace Shared.Behaviours
 {
     public class PerformanceBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {
-        private readonly Stopwatch _timer;
         private readonly ILogger<TRequest> _logger;
+        private readonly Stopwatch _timer;
 
         public PerformanceBehaviour(ILogger<TRequest> logger)
         {

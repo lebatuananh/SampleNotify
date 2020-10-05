@@ -1,15 +1,15 @@
 ﻿using MediatR;
-using SampleNotify.Application.Models;
+using SampleNotify.Application.Models.NotifyConfigGroup;
 
 namespace SampleNotify.Application.Queries.NotifyConfigGroup
 {
     public class GetNotifyConfigGroupQuery : IRequest<NotifyConfigGroupDto>
     {
-        public int Id { get; set; }
-
         public GetNotifyConfigGroupQuery(int id)
         {
             Id = id;
         }
+
+        public int Id { get; set; }
     }
 }

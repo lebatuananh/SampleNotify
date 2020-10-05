@@ -7,9 +7,9 @@ using Shared.Exceptions;
 
 namespace Shared.Filters
 {
-    public class ApiExceptionFilter: ExceptionFilterAttribute
+    public class ApiExceptionFilter : ExceptionFilterAttribute
     {
-         private readonly IDictionary<Type, Action<ExceptionContext>> _exceptionHandlers;
+        private readonly IDictionary<Type, Action<ExceptionContext>> _exceptionHandlers;
 
         public ApiExceptionFilter()
         {
@@ -17,7 +17,7 @@ namespace Shared.Filters
             _exceptionHandlers = new Dictionary<Type, Action<ExceptionContext>>
             {
                 {typeof(ValidationException), HandleValidationException},
-                {typeof(NotFoundException), HandleNotFoundException},
+                {typeof(NotFoundException), HandleNotFoundException}
             };
         }
 
@@ -30,7 +30,7 @@ namespace Shared.Filters
 
         private void HandleException(ExceptionContext context)
         {
-            Type type = context.Exception.GetType();
+            var type = context.Exception.GetType();
             if (_exceptionHandlers.ContainsKey(type))
             {
                 _exceptionHandlers[type].Invoke(context);
@@ -80,7 +80,7 @@ namespace Shared.Filters
 
             if (exception != null)
             {
-                var details = new ProblemDetails()
+                var details = new ProblemDetails
                 {
                     Type = "https://tools.ietf.org/html/rfc7231#section-6.5.4",
                     Title = "The specified resource was not found.",

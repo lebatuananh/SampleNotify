@@ -26,8 +26,8 @@ namespace Shared.Dto
             return new QueryResult<T>(0, null);
         }
     }
-    
-    
+
+
     public static class QueryResultExtension
     {
         public static async Task<QueryResult<T>> ToQueryResultAsync<T>(this IQueryable<T> queryable, int skip, int take)

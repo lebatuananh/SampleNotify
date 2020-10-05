@@ -9,13 +9,13 @@ using Shared.EF.Interfaces;
 
 namespace Shared.Infrastructure
 {
-    public class Repository<TDbContext, T> : IRepository<T> where T : class, IAggregateRoot where TDbContext : DbContext
+    public class Repository<TDbContext, T> : IRepository<T> where T : class where TDbContext : DbContext
     {
         private readonly TDbContext _dbContext;
 
         public Repository(TDbContext dbContext)
         {
-            this._dbContext = dbContext ?? throw new ArgumentException(nameof(dbContext));
+            _dbContext = dbContext ?? throw new ArgumentException(nameof(dbContext));
         }
 
         protected DbSet<T> DbSet => _dbContext.Set<T>();
@@ -95,6 +95,17 @@ namespace Shared.Infrastructure
         public async Task<int> CountAsync(Expression<Func<T, bool>> predicate)
         {
             return await _dbContext.Set<T>().CountAsync(predicate);
+        }
+
+        public async Task<IList<TType>> GetAsync<TType>(Expression<Func<T, bool>> predicate,
+            Expression<Func<T, TType>> select) where TType : class
+        {
+            return await _dbContext.Set<T>().Where(predicate).Select(select).ToListAsync();
+        }
+
+        public async Task<IList<TType>> GetAsync<TType>(Expression<Func<T, TType>> select) where TType : class
+        {
+            return await _dbContext.Set<T>().Select(select).ToListAsync();
         }
 
         public async Task<IList<T>> GetManyAsync(Expression<Func<T, bool>> predicate, int skip, int take)

@@ -61,12 +61,10 @@ D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Applicat
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Application.Read.dll
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Application.Write.dll
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Domain.dll
-D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Infrastructure.dll
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\Shared.dll
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Application.Read.pdb
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Application.Write.pdb
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Application.pdb
-D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Infrastructure.pdb
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\Shared.pdb
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SampleNotify.Domain.pdb
 D:\Project\Sample\SampleNotify.API\obj\Debug\netcoreapp3.1\SampleNotify.API.csprojAssemblyReference.cache
@@ -98,3 +96,5 @@ D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\Dapper.SqlBuilder.dll
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\Humanizer.dll
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SqlKata.dll
 D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\SqlKata.Execution.dll
+D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\ErikEJ.EntityFrameworkCore.DgmlBuilder.dll
+D:\Project\Sample\SampleNotify.API\bin\Debug\netcoreapp3.1\AutoMapper.dll

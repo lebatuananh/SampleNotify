@@ -21,16 +21,6 @@ namespace Shared.Infrastructure
             GC.SuppressFinalize(this);
         }
 
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!disposing) return;
-
-            if (_dbContext == null) return;
-
-            _dbContext.Dispose();
-            _dbContext = null;
-        }
-
         public async Task CommitAsync(CancellationToken cancellationToken = default)
         {
             await using var transaction = await _dbContext.Database.BeginTransactionAsync(cancellationToken);
@@ -46,6 +36,19 @@ namespace Shared.Infrastructure
             }
         }
 
-        public void Rollback() => this.Dispose();
+        public void Rollback()
+        {
+            Dispose();
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposing) return;
+
+            if (_dbContext == null) return;
+
+            _dbContext.Dispose();
+            _dbContext = null;
+        }
     }
 }

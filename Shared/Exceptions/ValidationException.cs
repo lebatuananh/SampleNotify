@@ -5,7 +5,7 @@ using FluentValidation.Results;
 
 namespace Shared.Exceptions
 {
-    public class ValidationException: Exception
+    public class ValidationException : Exception
     {
         public ValidationException()
             : base("One or more validation failures have occurred.")

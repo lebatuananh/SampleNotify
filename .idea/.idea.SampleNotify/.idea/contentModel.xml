@@ -41,21 +41,16 @@
       </e>
       <e p="SampleNotify.Application" t="IncludeRecursive">
         <e p="Assembly.cs" t="Include" />
+        <e p="AutoMappers" t="Include">
+          <e p="CommandToDomainMappingProfile.cs" t="Include" />
+          <e p="DomainToDtoMappingProfile.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commands" t="Include">
           <e p="NotifyConfigGroups" t="Include">
-            <e p="Add" t="Include">
-              <e p="AddNotifyConfigGroupCommand.cs" t="Include" />
-              <e p="AddNotifyConfigGroupCommandValidator.cs" t="Include" />
-            </e>
-            <e p="Delete" t="Include">
-              <e p="DeleteNotifyConfigGroupCommand.cs" t="Include" />
-              <e p="DeleteNotifyConfigGroupCommandValidator.cs" t="Include" />
-            </e>
-            <e p="Update" t="Include">
-              <e p="UpdateNotifyConfigGroupCommand.cs" t="Include" />
-              <e p="UpdateNotifyConfigGroupCommandValidator.cs" t="Include" />
-            </e>
+            <e p="AddNotifyConfigGroupCommand.cs" t="Include" />
+            <e p="DeleteNotifyConfigGroupCommand.cs" t="Include" />
+            <e p="UpdateNotifyConfigGroupCommand.cs" t="Include" />
           </e>
         </e>
         <e p="Models" t="Include">
@@ -126,29 +121,25 @@
         <e p="SampleNotify.Common.csproj" t="IncludeRecursive" />
       </e>
       <e p="SampleNotify.Domain" t="IncludeRecursive">
-        <e p="AggregateModels" t="Include">
-          <e p="CustomerNotifyConfigAggregate" t="Include">
-            <e p="CustomerNotifyConfig.cs" t="Include" />
-            <e p="ICustomerNotifyConfigRepository.cs" t="Include" />
-          </e>
-          <e p="EmailTemplateAggregate" t="Include">
-            <e p="Emailtemplate.cs" t="Include" />
-            <e p="IEmailtemplateRepository.cs" t="Include" />
-          </e>
-          <e p="NotifyAggregate" t="Include">
-            <e p="INotifyRepository.cs" t="Include" />
-            <e p="Notify.cs" t="Include" />
-          </e>
-          <e p="NotifyConfigAggregate" t="Include">
-            <e p="INotifyConfigRepository.cs" t="Include" />
-            <e p="NotifyConfig.cs" t="Include" />
-          </e>
-          <e p="NotifyConfigGroupAggregate" t="Include">
-            <e p="INotifyConfigGroupRepository.cs" t="Include" />
-            <e p="NotifyConfigGroup.cs" t="Include" />
-          </e>
-        </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DataNotifyDBContext.cs" t="Include" />
+        <e p="efpt.config.json" t="Include" />
+        <e p="Entity" t="Include">
+          <e p="CustomerNotifyConfig.cs" t="Include" />
+          <e p="Emailtemplate.cs" t="Include" />
+          <e p="Notify.cs" t="Include" />
+          <e p="NotifyConfig.cs" t="Include" />
+          <e p="NotifyConfigGroup.cs" t="Include" />
+          <e p="NotifyConfiguration.cs" t="Include" />
+          <e p="SubscribeNotify.cs" t="Include" />
+        </e>
+        <e p="EntityConfigurations" t="Include">
+          <e p="CustomerNotifyConfigConfiguration.cs" t="Include" />
+          <e p="EmailTemplateConfiguration.cs" t="Include" />
+          <e p="NotifyConfigConfiguration.cs" t="Include" />
+          <e p="NotifyConfigGroupConfiguration.cs" t="Include" />
+          <e p="SubscribeNotifyConfiguration.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -156,29 +147,19 @@
             </e>
           </e>
         </e>
-        <e p="SampleNotify.Domain.csproj" t="IncludeRecursive" />
-      </e>
-      <e p="SampleNotify.Infrastructure" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="DataNotifyDBContext.cs" t="Include" />
-        <e p="EntityConfiguations" t="Include">
-          <e p="CustomerNotifyConfigConfiguration.cs" t="Include" />
-          <e p="EmailTemplateConfiguration.cs" t="Include" />
-          <e p="NotifyConfigConfiguration.cs" t="Include" />
-          <e p="NotifyConfigGroupConfiguration.cs" t="Include" />
-          <e p="NotifyConfiguration.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="SampleNotify.Infrastructure.AssemblyInfo.cs" t="Include" />
-            </e>
+        <e p="Repositories" t="Include">
+          <e p="Implementations" t="Include">
+            <e p="NotifyConfigGroupRepository.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="ICustomerNotifyConfigRepository.cs" t="Include" />
+            <e p="IEmailtemplateRepository.cs" t="Include" />
+            <e p="INotifyConfigGroupRepository.cs" t="Include" />
+            <e p="INotifyConfigRepository.cs" t="Include" />
+            <e p="INotifyRepository.cs" t="Include" />
           </e>
         </e>
-        <e p="Repositories" t="Include">
-          <e p="NotifyConfigGroupRepository.cs" t="Include" />
-        </e>
-        <e p="SampleNotify.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="SampleNotify.Domain.csproj" t="IncludeRecursive" />
       </e>
       <e p="SampleNotify.sln" t="IncludeFlat" />
       <e p="Shared" t="IncludeRecursive">
@@ -210,6 +191,10 @@
         <e p="Exceptions" t="Include">
           <e p="NotFoundException.cs" t="Include" />
           <e p="ValidationException.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="EnumExtensions.cs" t="Include" />
+          <e p="MapperExtension.cs" t="Include" />
         </e>
         <e p="Filters" t="Include">
           <e p="ApiExceptionFilter.cs" t="Include" />

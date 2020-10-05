@@ -39,9 +39,6 @@
               "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj": {
                 "projectPath": "D:\\Project\\Sample\\SampleNotify.Application\\SampleNotify.Application.csproj"
               },
-              "D:\\Project\\Sample\\SampleNotify.Infrastructure\\SampleNotify.Infrastructure.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Infrastructure\\SampleNotify.Infrastructure.csproj"
-              },
               "D:\\Project\\Sample\\Shared\\Shared.csproj": {
                 "projectPath": "D:\\Project\\Sample\\Shared\\Shared.csproj"
               }
@@ -383,71 +380,32 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+          "dependencies": {
+            "ErikEJ.EntityFrameworkCore.DgmlBuilder": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Project\\Sample\\SampleNotify.Infrastructure\\SampleNotify.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Project\\Sample\\SampleNotify.Infrastructure\\SampleNotify.Infrastructure.csproj",
-        "projectName": "SampleNotify.Infrastructure",
-        "projectPath": "D:\\Project\\Sample\\SampleNotify.Infrastructure\\SampleNotify.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ducdu\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Sample\\SampleNotify.Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ducdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj": {
-                "projectPath": "D:\\Project\\Sample\\SampleNotify.Domain\\SampleNotify.Domain.csproj"
-              },
-              "D:\\Project\\Sample\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\Project\\Sample\\Shared\\Shared.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -507,6 +465,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[9.1.3, )"

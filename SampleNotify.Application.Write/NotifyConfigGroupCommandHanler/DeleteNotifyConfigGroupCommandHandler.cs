@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using SampleNotify.Application.Commands.NotifyConfigGroups.Delete;
-using SampleNotify.Models.AggregateModels.NotifyConfigGroupAggregate;
+using SampleNotify.Application.Commands.NotifyConfigGroups;
+using SampleNotify.Models.Repositories.Interfaces;
 using Shared.EF.Interfaces;
 
 namespace SampleNotify.Application.Write.NotifyConfigGroupCommandHanler
